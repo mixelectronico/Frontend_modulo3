@@ -1,4 +1,79 @@
 /*
-    FUENTES DEL PROJECTO
+    ESTILO GENERAL
 */
 
+body{
+    background-image: url(img/deepblue.jpg);
+}
+
+h4, h6{
+    color: aliceblue;
+}
+
+.contact{
+}
+
+.contact__menu{
+    list-style: none;
+    padding-left: 0%;
+}
+
+.contact__item{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.contact__picture{
+    width: 80px;
+    height: 80px;
+}
+
+.contact__picture img{
+    width: 100%;
+    border-radius: 30%;
+}
+
+.contact__info{
+    
+}
+
+.contact__info h4, h6{
+    margin: 0px;
+}
+
+.chat{
+
+}
+
+.chat__item{
+
+}
+
+.chat__header{
+    display: flex;
+    border: solid red 1px;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.chat__talking{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+
+.chat__talking p{
+    background-color: brown;
+    color: cyan;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.chat__talking p .sent{
+    
+}
