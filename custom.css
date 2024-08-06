@@ -23,6 +23,9 @@ h4, h6{
     align-items: center;
     column-gap: 10px;
     padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, 0.13);
 }
 
 .contact__picture{
@@ -33,6 +36,7 @@ h4, h6{
 .contact__picture img{
     width: 100%;
     border-radius: 30%;
+    border: solid aliceblue 3px;
 }
 
 .contact__info{
@@ -41,6 +45,10 @@ h4, h6{
 
 .contact__info h4, h6{
     margin: 0px;
+}
+
+#chatFrame{
+    border-top: dotted beige 4px;
 }
 
 .chat{
@@ -53,10 +61,11 @@ h4, h6{
 
 .chat__header{
     display: flex;
-    border: solid red 1px;
     align-items: center;
     column-gap: 10px;
     padding: 10px;
+    border-bottom:solid rgba(255, 255, 255, 0.5);
+    background-color:rgba(255, 255, 255, 0.07);
 }
 
 .chat__talking{
@@ -66,14 +75,21 @@ h4, h6{
     text-align: justify;
 }
 
-.chat__talking p{
-    background-color: brown;
-    color: cyan;
+.sent{
+    align-self: flex-end;
+    background-color:rgba(255, 255, 255, 0.13);
+    color: azure;
     padding: 10px;
     border-radius: 10px;
     max-width: 80%;
 }
 
-.chat__talking p .sent{
-    
+.received{
+    align-self: flex-start;
+    background-color:rgba(2200, 200, 200, 0.04);
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid beige 1px;
+    max-width: 80%;
 }
