@@ -20,7 +20,13 @@
             <div class="col-12">
                 <div class="contact" id="chatList">
                     <ul class="contact__menu">
-                        <li class="contact__item">
+                        <li>
+                            <div class="input-group my-3 px-4">
+                                <input type="text" class="form-control outline-secondary" placeholder="Buscar..." aria-label="Buscar..." aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </li>
+                        <li class="contact__item" id="showerBeth">
                             <div class="contact__picture">
                                 <img src="img/Beth Hughes.jpg" alt="">
                             </div>
@@ -29,7 +35,7 @@
                                 <h6>Cliente quiere devolución</h6>
                             </div>
                         </li>
-                        <li class="contact__item">
+                        <li class="contact__item" id="showerCarlos">
                             <div class="contact__picture">
                                 <img src="img/Carlos Marshall.jpg" alt="">
                             </div>
@@ -70,7 +76,7 @@
             </div>
             <div class="col-12" id="chatFrame">
                 <div class="chat">
-                    <div class="chat__item">
+                    <div class="chat__item" id="chatBeth">
                         <div class="chat__header">
                             <div class="contact__picture">
                                 <img src="img/Beth Hughes.jpg" alt="">
@@ -86,6 +92,27 @@
                             <p class="received">el folio de la factura es el numero 83548631, tiene un monto de 65.384,5 dolares. Avisame si necesitas más información, estaré atenta. </p>
                             <p class="sent">Muchas Gracias Beth!</p>
                             <p class="sent">Estaremos procesando tu solicitud!</p>
+                        </div>
+                    </div>
+                    <div class="chat__item" id="chatCarlos">
+                        <div class="chat__header">
+                            <div class="contact__picture">
+                                <img src="img/Carlos Marshall.jpg" alt="">
+                            </div>
+                            <div class="contact__info">
+                                <strong><h4>Carlos Marshall</h4></strong>
+                                <h6>Remate de mermas</h6>
+                            </div>
+                        </div>
+                        <div class="chat__talking">
+                            <p class="received">Hola!<br>El gerente quiere que rematemos las mermas de productos, tu crees que podamos hacernos cargo de eso?</p>
+                            <p class="sent">Wena Carlos... Dejame verlo con la unidad de operaciones para hacerle un espacio al tiempo, te mando luego la respuesta, te parece?...</p>
+                            <p class="received">Ya dale, no hay dramas</p>
+                            <p class="sent">Cualquier cosa no dudes en preguntar!!</p>
+                            <p class="received">vale gracias!!</p>
+                            <p class="received">Oye y al final como te fue??</p>
+                            <p class="received">estay ocupado?</p>
+                            <p class="received">hola?...</p>
                         </div>
                     </div>
                 </div>
