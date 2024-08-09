@@ -120,3 +120,15 @@ h4, h6{
     bottom: 0px;
     height: 10%;
 }
+
+.unseen{
+    background-color:rgba(255, 0, 0, 0.13);
+}
+
+.unseen h4{
+    display: inline;
+}
+
+.unseen span{
+    align-self: center;
+}

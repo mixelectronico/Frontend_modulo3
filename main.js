@@ -34,6 +34,8 @@ showerCarlos.addEventListener('click', function(){
     $('#chatJeanette').slideUp();
     $('#chatMaureen').slideUp();
     $('#chatInput').show();
+    $('#showerCarlos').removeClass('unseen');
+    $('#showerCarlos div span').hide()
 });
 
 showerIsaiah.addEventListener('click', function(){
